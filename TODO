@@ -1,0 +1,28 @@
+Параметры прогноза (вперед на несколько дней), которые необходимо показывать людям:
+1. Температура
+2. Осадки
+3. Облачность (несколько ярусов)
+4. Давление
+5. Направление ветра
+6. Сила ветра
+7. Сила порывов ветра
+
+Структура прогноза:
+long id
+char[8] forecast_source
+timestamp forecasted_at
+timestamp forecasted_for
+float lat
+float lon
+int8 temperature
+uint16 precip
+uint8 clouds_hi
+uint8 clouds_med
+uint8 clouds_low
+uint16 pressure
+uint16 wind_direction
+uint8 wind_speed
+uint8 wind_gusts
+unit6 humidity
+
+Итого 45 байт

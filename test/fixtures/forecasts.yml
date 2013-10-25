@@ -1,0 +1,33 @@
+# == Schema Information
+#
+# Table name: forecasts
+#
+#  id             :integer          not null, primary key
+#  source         :string(255)
+#  at             :datetime
+#  for            :datetime
+#  lat            :float
+#  lon            :float
+#  temperature    :integer
+#  preciperation  :float
+#  clouds_high    :integer
+#  clouds_med     :integer
+#  clouds_low     :integer
+#  pressure       :integer
+#  wind_direction :integer
+#  wind_speed     :integer
+#  wind_gusts     :integer
+#  humidity       :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+#  column: value
